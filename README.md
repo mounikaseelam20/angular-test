@@ -1,0 +1,2 @@
+# angular-test
+this angular application with state provider  consists of services,custom directives-(reusable footer &amp; reusable header),custom filters,a home page with a login button with state ‘home’,on click of login button  go to login page with login state,after submit it moves to dashboard page with dashboard state in which the header contains user name ,and contains log out button on click of it it moves to home page.here header is common in all pages and footer in dashboard
