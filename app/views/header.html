@@ -1,0 +1,18 @@
+<div class="col-xs-12" style="background-color:skyblue" ng-controller="homeCtrl">
+    <div class="col-xs-12 col-sm-3  ">
+        <h2>mounika seelam</h2>
+    </div>
+    <div class="col-xs-12 col-sm-8 text-right" style="padding-top:30px">
+        <h3>
+            <span ng-show='showhideprop'>{{fnC()}}{{un2 | greetings}}
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <span class="dropdown">
+                        <a href="" class="glyphicon glyphicon-triangle-bottom" data-toggle="dropdown"></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" ng-click="changeState1()">signout</a></li>
+                        </ul>
+                </span>
+            </span>
+        </h3>
+    </div>
+</div>
